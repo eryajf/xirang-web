@@ -41,7 +41,7 @@ const { locale, translationCh, translationEn } = useTranslationLang();
 
 const ruleForm = reactive({
   username: "admin",
-  password: "admin123456"
+  password: "admin123"
 });
 
 const onLogin = async (formEl: FormInstance | undefined) => {
